@@ -406,4 +406,13 @@ footer p {
     margin-right: auto;
   }
 }
+
+@media screen and(min-width: 850px) {
+	.main-inner {
+		display: flex;
+		.card + .card {
+			margin-left: 20px;
+		}
+	}
+}
 /*# sourceMappingURL=style.css.map */
