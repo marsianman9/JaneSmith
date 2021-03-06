@@ -240,9 +240,10 @@ header .btn-nav.toggle + .side-nav {
   font-size: 1.1rem;
   font-weight: 800;
   color: #202020;
+  transition: .2s;
 }
 
-.side-nav ul a:active, .side-nav ul a:focus {
+.side-nav ul a:active, .side-nav ul a:focus, .side-nav ul a:hover {
   color: #009df8;
 }
 
